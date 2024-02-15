@@ -1,0 +1,3 @@
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g;// The \D shorthand character is used to match non-digits characters, it has the same result as using [^0-9];
+let result = movieName.match(noNumRegex).length;
